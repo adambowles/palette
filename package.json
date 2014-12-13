@@ -3,9 +3,6 @@
   "dependencies": {
     "jquery": "latest",
     "jsdom": "latest",
-    "charset": "latest",
-    "jschardet": "latest",
-    "iconv-lite": "latest",
     "request": "latest",
     "mysql": "latest"
   }
