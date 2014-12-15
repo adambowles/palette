@@ -1,0 +1,8 @@
+module.exports = {
+  connectionDetails: {
+    host     : 'localhost',
+    user     : 'root',
+    password : 'root passw0rd!',
+    database : 'db'
+  }
+};
