@@ -2,7 +2,7 @@
   "name": "Palette",
   "dependencies": {
     "jquery": "latest",
-    "jsdom": "latest",
+    "jsdom": "3.1.2",
     "request": "latest",
     "mysql": "latest"
   }
