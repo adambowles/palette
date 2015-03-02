@@ -118,7 +118,7 @@ module.exports = {
   writeData: function(image) {
     var connection = mysql.createConnection(connectionDetails);
 
-    var sql = 'INSERT INTO `artatk`.`artatk_art` (`artist`, `source`, `filename`, `localPath`, `title`, `dateCreated`, `medium`) VALUES (' + connection.escape(image.artist) + ', ' + connection.escape(image.source) + ', ' + connection.escape(image.filename) + ', ' + connection.escape(image.localPath) + ', ' + connection.escape(image.title) + ', ' + connection.escape(image.dateCreated) + ', ' + connection.escape(image.medium) + ')';
+    var sql = 'INSERT INTO `artatk`.`artatk_art` (`last_updated`, `artist_name`, `source_url`, `filename`, `local_path`, `painting_name`, `date_painted`, `painting_medium`) VALUES (CURRENT_TIMESTAMP, ' + connection.escape(image.artist) + ', ' + connection.escape(image.source) + ', ' + connection.escape(image.filename) + ', ' + connection.escape(image.localPath) + ', ' + connection.escape(image.title) + ', ' + connection.escape(image.dateCreated) + ', ' + connection.escape(image.medium) + ')';
 
     connection.connect();
 
