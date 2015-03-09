@@ -5,7 +5,7 @@
 // 2 param usage: node monet.js [first piece] [final piece]
 //   - First parameter is first piece to download
 //   - Second parameter is final piece to download
-//   useful for downloading small datasets, to split the downloading if the entier dataset is too large to working memory
+//   useful for downloading small datasets, to split the downloading if the entire dataset is too large for working memory
 // Provide no parameters to download all pieces, used for production download
 
 // Common functions between all modules
